@@ -1,7 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-require('./index.css');
-var App = require('./components/App');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './components/App';
 
 
 
@@ -29,14 +29,14 @@ ReactDOM.render(
 
 
 /*
-var PropTypes = require('prop-types');
+import PropTypes from 'prop-types';
 
 class User extends React.Component {
     render(){
-        var friends = this.props.list.filter(function(user){
+        import friends = this.props.list.filter(function(user){
             return user.friend === true
         });
-        var nonFriends = this.props.list.filter(function(user){
+        import nonFriends = this.props.list.filter(function(user){
             return user.friend !== true
         });
 
